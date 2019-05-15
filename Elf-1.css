@@ -7,7 +7,7 @@ html{
 	scroll-behavior: smooth;
 }
 header{
-	background-image: url(moss_rocks.JPG);
+	background-image: url('moss_rocks.JPG');
 	background-attachment: fixed ;
 	background-size: cover;
 	padding: 50px 50px 300px 50px;
@@ -30,14 +30,15 @@ header h1{
 	padding: 50px 50px 10px 50px;
 	display: flex;
 	flex-direction: column;
-	background: #f2f2f2;
+	background: white;
 }
 #area1{
 	display: flex;
 	flex-direction: row;
 	margin-top: -300px;
-	background: #f2f2f2;
+	background: #e6e6e6;
 	padding: 30px;
+	box-shadow: 0px 10px 5px #a6a6a6;
 }
 #left-side{
 	display: flex;
@@ -158,7 +159,7 @@ header h1{
 }
 #area2 img{
 	padding: 0px 0px 0px 0px;
-	background: #d9d9d9;
+	background:  #cccccc;
 	padding: 40px;
 }
 #b-Line{
@@ -219,9 +220,9 @@ header h1{
 }
 #p-alone p{
 	padding: 50px 300px;
-	line-height: 50px;
-	font-size: 26px;
-	text-align: justify;
+	line-height: 20px;
+	font-size: 17px;
+	text-align: center;
 
 }
 #to-top-area{
@@ -246,27 +247,198 @@ header h1{
 	color: white;
 	transition: 0.4s;
 }
+/*Footer*/
 footer{
 	display: flex;
 	flex-direction: column;
-	background-image: url(./nicebg.png);
-	margin-top: -15px;
-	padding-top: 30px;
+	background: #737373;
+	color: white;
+	padding: 90px;
 }
-#quote{
-	display: flex;
-	flex-direction: row;
+footer h1{
+	color: white;
+	font-size: 25px;
+	padding: 10px 0px;
 }
-#quote p{
-	font-size: 40px;
-	padding: 80px 80px 10px 80px;
-
+#footer-table{
+	margin: 30px 30px 30px 0px;
+}
+#footer-table thead{
+	font-weight: bold;
+}
+#footer-table thead td{
+	text-align: justify;
+}
+#footer-table td{
+	padding: 15px 0px;
 }
 #copyright{
 	color: black;
-	padding: 30px 90px;
+	padding: 30px 0px;
 }
 #copyright:hover{
 	text-decoration: underline;
 	cursor: pointer;
 }
+
+
+
+/*Main Page */
+
+
+
+#main-page-header{
+	display: flex;
+	flex-direction: row;
+	background: #ffdf80;
+	padding: 80px 150px;
+}
+
+#Name-area h1{
+	font-size: 90px;
+}
+#Name-area p{
+	margin-top: 20px;
+	font-size: 20px;
+	text-align: center;
+}
+
+#main-page-nav{
+	margin-left: 13em;
+	margin-top: 5em;
+	display: flex;
+	flex-direction: row;
+}
+#main-page-nav a{
+	text-decoration: none;
+	color: black;
+	font-size: 34px;
+	margin-bottom: 15px;
+}
+#sub-nav-left{
+	margin-right: 20px;
+}
+#sub-nav-middle{
+	padding: 0px 20px;
+}
+#sub-nav-right{
+	margin-left: 20px;
+}
+
+
+#main-page-nav a:hover {
+	border-bottom: red solid 3px;
+
+}
+
+
+#mp-nav-line{
+	transform: rotate(0deg);
+	width: 1px;
+	height: 40px;
+	border: none;
+	border-radius: 0px;
+	margin: 0px 10px;
+}
+
+#box-area{
+	display: flex;
+	flex-direction: row;
+	margin: 100px;
+}
+
+.boxes{
+	min-width: 440px;
+	min-height: 440px;
+	margin: 0px 30px;
+	border-top-left-radius: 20px;
+	border-top-right-radius: 20px;
+	opacity: 0.8;
+}
+
+.boxes h1{
+	text-align: center;
+	color: black;
+	margin-bottom: 10px;
+}
+
+#box-line{
+	padding: 6px;
+	border-radius: 0px;
+	margin-bottom: 20px;
+}
+
+.boxes p{
+	font-size: 24px;
+	text-align: justify;
+	line-height: 35px;
+}
+
+#bio{
+	margin: 50px 200px;
+	font-size:25px;
+	
+
+}
+#bio h1{
+
+	color: #cc0000;
+}
+#bio h2{
+	font-size: 22px;
+	font-weight: normal;
+	color: grey;
+	margin-bottom: 50px;
+}
+
+#bio h2:hover{
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+article{
+	line-height: 60px;
+	font-size: 24px;
+	text-align: justify;
+	text-indent: 50px;
+	font-family: Times New Roman;
+}
+#info-top{
+	display: flex;
+	flex-direction: row;
+
+}
+#info-top img{
+	margin: 60px;
+}
+#info-bottom{
+	margin-top: -35px;
+}
+#w-a{
+	margin: 50px 200px;
+	font-size:25px;
+	display: flex;
+	flex-direction: row;
+}
+#w-a-1{
+	margin-right: 38px;
+	margin-left: -200px;
+
+}
+#w-a-2{
+	margin-left: 38px;
+	margin-right: -200px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
